@@ -1,0 +1,23 @@
+.faqblock {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+.faqhead {
+  display: flex;
+  justify-content: space-between;
+  font-family: Rubik, sans-serif;
+  align-items: center;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+.faqhead > p {
+  font-size: 20px;
+  line-height: 1.2;
+  /* font-weight: 100; */
+  color: red;
+  margin-bottom: 0;
+}
+.faqans {
+  padding: 10px 20px;
+  font-family: Rubik, sans-serif;
+  font-size: 13px;
+}

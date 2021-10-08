@@ -21,9 +21,11 @@ const Menu = ({ bg }) => {
       }`}
     >
       <Navbar expand="md">
-        <Navbar.Brand href="#home">
-          <img height="55" className={style.logo} src={logo} alt="" />
-        </Navbar.Brand>
+        <Link to="/">
+          <Navbar.Brand>
+            <img height="55" className={style.logo} src={logo} alt="" />
+          </Navbar.Brand>
+        </Link>
         <Navbar.Toggle className="shadow-none" aria-controls="basic-navbar-nav">
           <MdMenu />
         </Navbar.Toggle>

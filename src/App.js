@@ -12,6 +12,7 @@ import ProductDetailsPage from "./pages/ProductDetails/ProductDetailsPage";
 import { totalQuantity } from "./Utilis/GetTotalQuantity";
 import CartPage from "./pages/CartPage/CartPage";
 import NotFind from "./pages/NotFound/NotFind";
+import Faq from "./pages/FaqPage/Faq";
 
 export const CardContext = createContext();
 
@@ -40,6 +41,9 @@ function App() {
             </Route>
             <Route path="/cart">
               <CartPage />
+            </Route>
+            <Route path="/pages/faq">
+              <Faq />
             </Route>
             <Route>
               <NotFind />
