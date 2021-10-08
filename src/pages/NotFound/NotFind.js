@@ -10,7 +10,7 @@ const NotFind = () => {
       <PageBanner title="404 Not Found" dontShowTitle={true} menu={true} />
       <div className="ntfindmain">
         <div>
-          <img src={NotFound} alt="not found" />
+          <img src={NotFound} alt="not found" className="resimage" />
         </div>
         <h1 style={{ fontWeight: "900", padding: "20px 0" }}>
           OPPS! PAGE NOT FOUND

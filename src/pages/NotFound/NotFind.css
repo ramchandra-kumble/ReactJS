@@ -1,6 +1,11 @@
 .ntfindmain {
-  padding: 150px 200px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.resimage {
+  width: 100%;
+  height: auto;
 }
