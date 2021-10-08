@@ -11,6 +11,7 @@ import CheckoutPage from "./pages/CheckoutPage/CheckoutPage";
 import ProductDetailsPage from "./pages/ProductDetails/ProductDetailsPage";
 import { totalQuantity } from "./Utilis/GetTotalQuantity";
 import CartPage from "./pages/CartPage/CartPage";
+import NotFind from "./pages/NotFound/NotFind";
 
 export const CardContext = createContext();
 
@@ -39,6 +40,9 @@ function App() {
             </Route>
             <Route path="/cart">
               <CartPage />
+            </Route>
+            <Route>
+              <NotFind />
             </Route>
             <Footer />
           </Switch>

@@ -4,6 +4,8 @@ import RelatedProducts from "../../components/ProductDetailsComponent/RelatedPro
 import PageBanner from "../../components/commonComponent/PageBanner/PageBanner";
 
 import { Link } from "react-router-dom";
+import CheckOutSidebar from "../../components/CheckOutPageComponent/CheckOutSidebar";
+import OrderPoroductList from "../../components/CheckOutPageComponent/OrderPoroductList";
 // import { Button } from "react-bootstrap";
 
 const CartPage = () => {
@@ -13,6 +15,8 @@ const CartPage = () => {
       <div style={{ height: "500px", margin: "20px", position: "relative" }}>
         <div style={{ display: "flex", alignItems: "center" }}>
           <p>Cart Empty</p>
+          {/* <CheckOutSidebar /> */}
+          <OrderPoroductList />
         </div>
         <div style={{ position: "absolute", bottom: "0", right: "0" }}>
           <Link to="/check-out">
