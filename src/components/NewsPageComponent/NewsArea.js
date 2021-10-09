@@ -1,10 +1,10 @@
 import React from "react";
-import { newsData } from "./../Data/newsData";
+// import { newsData } from "./../Data/newsData";
 import SingleNews from "./SingleNews";
 import style from "./NewsPageComponent.module.css";
 import { MdKeyboardArrowRight } from "react-icons/md";
 
-const NewsArea = () => {
+const NewsArea = ({ newsData }) => {
   return (
     <>
       <div>
