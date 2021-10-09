@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./NewsPageComponent.module.css";
 import { IoArrowForward } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const SingleNews = ({ news }) => {
   return (
@@ -17,10 +18,12 @@ const SingleNews = ({ news }) => {
           <p className={style.description}>
             {news.description.slice(0, 200)}...
           </p>
-          <button className={`${style.my_btn} btn shadow-none`}>
-            <span className="me-1">Read more</span>
-            <IoArrowForward className="text-white fs-16" />
-          </button>
+          <Link to={`/news/${news.title}`}>
+            <button className={`${style.my_btn} btn shadow-none`}>
+              <span className="me-1">Read more</span>
+              <IoArrowForward className="text-white fs-16" />
+            </button>
+          </Link>
         </div>
       </div>
     </>

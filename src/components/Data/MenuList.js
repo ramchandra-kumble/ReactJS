@@ -39,8 +39,8 @@ export const menus = [
     path: "/",
     dropdownList: [
       { text: "FAQ", path: "/pages/faq" },
-      { text: "Action", path: "/" },
-      { text: "Action", path: "/" },
+      { text: "REGISTER", path: "/account/register" },
+      { text: "LOGIN", path: "/account/login" },
     ],
   },
 ];

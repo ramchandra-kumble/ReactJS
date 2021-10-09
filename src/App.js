@@ -13,6 +13,9 @@ import { totalQuantity } from "./Utilis/GetTotalQuantity";
 import CartPage from "./pages/CartPage/CartPage";
 import NotFind from "./pages/NotFound/NotFind";
 import Faq from "./pages/FaqPage/Faq";
+import SingleNewsPage from "./pages/NewsPage/SingleNewsPage";
+import Register from "./pages/Account/Register";
+import Login from "./pages/Account/Login";
 
 export const CardContext = createContext();
 
@@ -44,6 +47,15 @@ function App() {
             </Route>
             <Route path="/pages/faq">
               <Faq />
+            </Route>
+            <Route path="/news/page">
+              <SingleNewsPage />
+            </Route>
+            <Route path="/account/register">
+              <Register />
+            </Route>
+            <Route path="/account/login">
+              <Login />
             </Route>
             <Route>
               <NotFind />
