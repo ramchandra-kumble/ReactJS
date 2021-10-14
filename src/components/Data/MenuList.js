@@ -41,6 +41,8 @@ export const menus = [
       { text: "FAQ", path: "/pages/faq" },
       { text: "REGISTER", path: "/account/register" },
       { text: "LOGIN", path: "/account/login" },
+      { text: "SERVICES", path: "/services" },
+      { text: "ABOUT US", path: "/aboutus" },
     ],
   },
 ];

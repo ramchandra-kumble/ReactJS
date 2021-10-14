@@ -17,6 +17,8 @@ import SingleNewsPage from "./pages/NewsPage/SingleNewsPage";
 import Register from "./pages/Account/Register";
 import Login from "./pages/Account/Login";
 import { newsData } from "./components/Data/newsData";
+import Services from "./pages/Services/Services";
+import About from "./pages/AboutUS/About";
 
 export const CardContext = createContext();
 
@@ -58,6 +60,12 @@ function App() {
             </Route>
             <Route path="/account/login">
               <Login />
+            </Route>
+            <Route path="/services">
+              <Services />
+            </Route>
+            <Route path="/aboutus">
+              <About />
             </Route>
             <Route>
               <NotFind />
