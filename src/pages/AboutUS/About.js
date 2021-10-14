@@ -105,6 +105,14 @@ const About = () => {
             </Row>
           </div>
         </div>
+        <div className="video">
+          <iframe
+            className="main-video"
+            width="1200"
+            height="400"
+            src="https://www.youtube.com/embed/tgbNymZ7vqY"
+          />
+        </div>
       </div>
     </div>
   );
